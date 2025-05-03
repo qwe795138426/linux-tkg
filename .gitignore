@@ -1,4 +1,5 @@
 .*
+!.github
 !.gitignore
 *~
 *.orig
@@ -18,3 +19,11 @@ src/*
 */pkg/
 pkg/*
 */linux-5*/
+*.myfrag
+logs/*
+kernel_updates
+gnupg/
+*sha256sum*
+current_env
+linux-kernel.git/
+linux-src-git/
